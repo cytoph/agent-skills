@@ -16,4 +16,4 @@ Copy-Item "$tmp\agent-skills-main\skills\update-git-skills" "$Target\" -Recurse 
 Remove-Item "$tmp.zip", $tmp -Recurse -Force
 
 Write-Host "install-git-skills and update-git-skills installed to $Target"
-Write-Host "Run /reload-plugins in Claude Code to pick up the skills."
+Write-Host "Reload skills in your agent."

@@ -28,7 +28,7 @@ Run the script with the repo and any parameters the user provided:
 bash ~/.claude/skills/install-git-skills/install.sh <repo> [options]
 ```
 
-After installing, run `/reload-plugins` to pick up the new skills.
+After installing, reload skills in your agent (e.g. `/reload-plugins` for Claude Code).
 
 ## Examples
 

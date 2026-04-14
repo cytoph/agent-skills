@@ -160,4 +160,4 @@ done
 
 echo ""
 echo "Summary: $UPDATED updated, $SKIPPED up to date, $FAILED failed"
-[ $UPDATED -gt 0 ] && echo "Run /reload-plugins in Claude Code to pick up changes." || true
+[ $UPDATED -gt 0 ] && echo "Reload skills in your agent." || true

@@ -40,7 +40,7 @@ To install for a single project only, download the [appropriate script file](scr
 
 **Windows (CMD):** `install.cmd --local`
 
-After installing, run `/reload-plugins` in Claude Code to pick up the skills.
+After installing, reload skills in your agent (e.g. `/reload-plugins` for Claude Code).
 
 ## Skills
 

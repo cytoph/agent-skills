@@ -18,6 +18,6 @@ rd /S /Q "%TEMP%\agent-skills-main"
 del "%TEMP%\agent-skills.zip"
 
 echo install-git-skills and update-git-skills installed to %TARGET%
-echo Run /reload-plugins in Claude Code to pick up the skills.
+echo Reload skills in your agent.
 
 endlocal

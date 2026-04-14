@@ -25,7 +25,7 @@ Run the script, passing any parameters the user provided:
 bash ~/.claude/skills/update-git-skills/update.sh [--global] [--only=name1,name2]
 ```
 
-After updating, run `/reload-plugins` to pick up changes.
+After updating, reload skills in your agent (e.g. `/reload-plugins` for Claude Code).
 
 ## Adding a Skill Source
 
