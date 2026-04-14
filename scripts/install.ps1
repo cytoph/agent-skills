@@ -12,7 +12,8 @@ $tmp = "$env:TEMP\agent-skills-install"
 Invoke-WebRequest https://github.com/cytoph/agent-skills/archive/refs/heads/main.zip -OutFile "$tmp.zip"
 Expand-Archive "$tmp.zip" $tmp -Force
 Copy-Item "$tmp\agent-skills-main\skills\install-git-skills" "$Target\" -Recurse -Force
+Copy-Item "$tmp\agent-skills-main\skills\update-git-skills" "$Target\" -Recurse -Force
 Remove-Item "$tmp.zip", $tmp -Recurse -Force
 
-Write-Host "install-git-skills installed to $Target"
-Write-Host "Run /reload-plugins in Claude Code to pick up the skill."
+Write-Host "install-git-skills and update-git-skills installed to $Target"
+Write-Host "Run /reload-plugins in Claude Code to pick up the skills."

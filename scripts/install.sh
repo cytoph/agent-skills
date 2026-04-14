@@ -15,7 +15,7 @@ fi
 
 mkdir -p "$TARGET"
 curl -sL https://github.com/cytoph/agent-skills/archive/refs/heads/main.tar.gz \
-    | tar -xz --strip-components=2 -C "$TARGET" agent-skills-main/skills/install-git-skills
+    | tar -xz --strip-components=2 -C "$TARGET" agent-skills-main/skills/install-git-skills agent-skills-main/skills/update-git-skills
 
-echo "install-git-skills installed to $TARGET"
-echo "Run /reload-plugins in Claude Code to pick up the skill."
+echo "install-git-skills and update-git-skills installed to $TARGET"
+echo "Run /reload-plugins in Claude Code to pick up the skills."
